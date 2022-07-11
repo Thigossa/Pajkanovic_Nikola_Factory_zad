@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sasstyle.min.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> 
 </head>
 <body>
+    <div class="maincont">
+        <div class="header">
+            <div class="lfto"></div>
+            <div class="rghto"><p class="headtxt">Skup drugih elemenata na stranici</p></div>
+        </div>
 
-    <div class="header">
-        <div class="leftcon"></div>
-        <div class="rightcon"><p id="headtxt">Skup drugih elemenata na stranici</p></div>
+        <div class="containm">
+            <div class="toprow">
+                <span><img src="assets/slider-image-1.jpg" class="gallery" alt="slider-image-1"></span>
+                <span><img src="assets/slider-image-2.jpg" class="gallery" alt="slider-image-2"></span>
+                <span><img src="assets/slider-image-3.jpg" class="gallery" alt="slider-image-3"></span>
+                <span><img src="assets/slider-image-4.jpg" class="gallery" alt="slider-image-4"></span>
+                <span><img src="assets/slider-image-5.jpg" class="gallery" alt="slider-image-5"></span>
+                <span><img src="assets/slider-image-6.jpg" class="gallery" alt="slider-image-6"></span>
+                <!--<span><img src="assets/slider-image-7.jpg" class="gallery" alt="slider-image-7"></span>
+                <span><img src="assets/slider-image-8.jpg" class="gallery" alt="slider-image-8"></span>
+                <span><img src="assets/slider-image-9.jpg" class="gallery" alt="slider-image-9"></span>-->
+            </div>
+            <div class="btn">
+                <button type="button" class="lftbtn" id="left"></button>
+                <button type="button" class="rghtbtn" id="right"></button>
+            </div>
+            <div class="text">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p id="parag">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="botrow">
+                <span><img src="assets/slider-image-9.jpg" class="gallery" alt="slider-image-1"></span>
+                <span><img src="assets/slider-image-8.jpg" class="gallery" alt="slider-image-2"></span>
+                <span><img src="assets/slider-image-7.jpg" class="gallery" alt="slider-image-3"></span>
+                <span><img src="assets/slider-image-6.jpg" class="gallery" alt="slider-image-4"></span>
+                <span><img src="assets/slider-image-5.jpg" class="gallery" alt="slider-image-5"></span>
+                <!--<span><img src="assets/slider-image-4.jpg" class="gallery" alt="slider-image-6"></span>
+                <span><img src="assets/slider-image-3.jpg" class="gallery" alt="slider-image-7"></span>
+                <span><img src="assets/slider-image-2.jpg" class="gallery" alt="slider-image-8"></span>
+                <span><img src="assets/slider-image-1.jpg" class="gallery" alt="slider-image-9"></span>-->
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="foottxt">Skup drugih elemenata na stranici</p>
+        </div>
     </div>
-                <div class="bottomrow" id="imagesbot">
-                    <span><img src="assets/slider-image-1.jpg" id="imag1" alt="slider-image-1"></span>
-                    <span><img src="assets/slider-image-2.jpg" id="imag2" alt="slider-image-2"></span>
-                    <span><img src="assets/slider-image-3.jpg" id="imag3" alt="slider-image-3"></span>
-                    <span><img src="assets/slider-image-4.jpg" id="imag4" alt="slider-image-4"></span>
-                </div>
-                <div class="toprow" id="imagestop">
-                    <span><img src="assets/slider-image-5.jpg" id="imag5" alt="slider-image-5"></span>
-                    <span><img src="assets/slider-image-6.jpg" id="imag6" alt="slider-image-6"></span>
-                    <span><img src="assets/slider-image-7.jpg" id="imag7" alt="slider-image-7"></span>
-                    <span><img src="assets/slider-image-8.jpg" id="imag8" alt="slider-image-8"></span>
-                    <span><img src="assets/slider-image-9.jpg" id="imag9" alt="slider-image-9"></span>
-                </div>
-                
-                <div class="btn">
-                    <button type="button" class="lftbtn" id="left"></button>
-                    <button type="button" class="rghtbtn" id="right"></button>
-                </div>
-                <div class="text">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-                    <p id="parag">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>  
-
-    <div class="footer">
-        <div class="botcon"><p id="foottxt">Skup drugih elemenata na stranici</p></div>
-    </div>
-
-    <script src="javascript.js"></script>
+    
+    <script src="babel.js" defer></script>
 </body>
 <!--Napravio Nikola Pajkanović-->
 </html>
